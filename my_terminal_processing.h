@@ -13,6 +13,9 @@ void my_terminal_processing(std::string user_command, bool is_debug = false, str
 		}
 		my_terminal_extended(dll_file_name, is_debug);
 	}
+	else if (user_command == "exit") {
+		exit(0);
+	}
 	else {
 		std::cout << "Î´ÖªÖ¸Áî" << std::endl;
 		return;

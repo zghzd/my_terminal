@@ -8,8 +8,8 @@ int main(int argc, char* argv[]) {
 	}
 	std::string user_command_input;
 	bool is_debug = false;
-	std::string argv_a = argv[1];
 	if (argc > 1) {
+		std::string argv_a = argv[1];
 		if (argv_a == "debug") {
 			is_debug = true;
 		}
