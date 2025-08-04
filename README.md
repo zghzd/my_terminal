@@ -32,6 +32,9 @@
 - extended  
 > 加载扩展dll文件，文件是否允许加载和文件名由配置文件`mainconfig.config`决定  
 
+- exit  
+> 退出程序
+
 # 启动参数  
 > 以下是参数传递的介绍  
 
