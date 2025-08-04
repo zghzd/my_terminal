@@ -19,4 +19,23 @@
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my_terminal_IO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fileread_withkey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="my_terminal_extended.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="my_terminal_processing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
