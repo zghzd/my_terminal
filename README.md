@@ -52,7 +52,7 @@
 **除非特别说明，否则只有`已提交的代码`是开源的**，未提交的代码不在开源范围之内。  
   
 
-   Copyright 2025 zghzd  
+   Copyright &copy; 2025 zghzd  
    
    Licensed under the Apache License, Version 2.0 (the "License");  
    you may not use this file except in compliance with the License.  
