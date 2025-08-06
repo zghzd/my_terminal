@@ -136,6 +136,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="base64_process.h" />
     <ClInclude Include="fileread_withkey.h" />
     <ClInclude Include="my_terminal_extended.h" />
     <ClInclude Include="my_terminal_IO.h" />

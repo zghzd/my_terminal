@@ -37,5 +37,8 @@
     <ClInclude Include="my_terminal_processing.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="base64_process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
