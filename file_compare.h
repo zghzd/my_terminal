@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <sstream>
 #undef max
 #include <Windows.h>
 
@@ -24,11 +25,15 @@ public:
         std::replace(text_b.begin(), text_b.end(), '\r', '\n');
         std::vector<std::string>text_compare_b;
         std::vector<std::string>text_compare_a;
-        while (std::getline(std::cin, text_a)) {
-            text_compare_a.push_back(text_a);
+        std::stringstream ss_a(text_a);
+        std::string line;
+        while (std::getline(ss_a, line)) {
+            text_compare_a.push_back(line);
         }
-        while (std::getline(std::cin, text_b)) {
-            text_compare_b.push_back(text_b);
+
+        std::stringstream ss_b(text_b);
+        while (std::getline(ss_b, line)) {
+            text_compare_b.push_back(line);
         }
         for (size_t i = 0; i < text_compare_b.size(); ++i) {
             if (text_a.find(text_compare_b[i]) != string::npos) {
@@ -42,6 +47,8 @@ public:
         for (size_t i = 0; i < text_compare_a.size(); ++i) {
             std::cout << "-=" << text_compare_a[i] << std::endl;
         }
+        text_compare_b.clear();
+        text_compare_a.clear();
     }
 };
 
