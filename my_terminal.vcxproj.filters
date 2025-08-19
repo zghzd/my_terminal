@@ -40,5 +40,8 @@
     <ClInclude Include="base64_process.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="file_compare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -138,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="base64_process.h" />
     <ClInclude Include="fileread_withkey.h" />
+    <ClInclude Include="file_compare.h" />
     <ClInclude Include="my_terminal_extended.h" />
     <ClInclude Include="my_terminal_IO.h" />
     <ClInclude Include="my_terminal_processing.h" />

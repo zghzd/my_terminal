@@ -3,6 +3,7 @@
 #include "my_terminal_extended.h"
 #include "fileread_withkey.h"
 #include "base64_process.h"
+#include "file_compare.h"
 
 void my_terminal_processing(std::string user_command, bool is_debug = false, string config_file = "config.config") {
 	if (user_command == "extended") {
@@ -19,6 +20,9 @@ void my_terminal_processing(std::string user_command, bool is_debug = false, str
 	}
 	else if (user_command == "base64") {
 		base64_process(is_debug);
+	}
+	else if (user_command == "compare") {
+		mycompare(is_debug);
 	}
 	else {
 		std::cout << "Î´ÖªÖ¸Áî" << std::endl;
