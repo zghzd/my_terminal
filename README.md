@@ -57,8 +57,8 @@
 使用cmd命令行程序启动时:
   - 请先使用`cd /d`指令跳转至程序的工作目录  
   - 之后启动，使用指令`my_terminal.exe`可以直接启动程序，此时，参数使用程序预留的参数  
-  - 如果使用参数，语法为`my_terminal.exe <release|debug>`  
-> <release|debug>指定是(debug)否(release)启用程序的调试功能  
+  - 如果使用参数，语法为`my_terminal.exe <null|debug>`  
+> <release|debug>指定是(debug)否(null)启用程序的调试功能  
 > 
 
 # 版权声明
