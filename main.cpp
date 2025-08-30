@@ -2,8 +2,10 @@
 #include <windows.h>
 #include <tchar.h>
 #include "my_terminal_processing.h"
+#include "_copyright.h"
 
 int main(int argc, char* argv[]) {
+	_copyright();
 	mainstart:
 	std::string config_file = "mainconfig.config";
 	if ((getConfigValue(config_file, "configtype") != "main") || (getConfigValue(config_file, "configkey") != "cbnatrjkhn01a1v7r3s1ca84VG14738TRD1tht73t1hgVTD1771T7863DXcvfg484r84x637g") ){

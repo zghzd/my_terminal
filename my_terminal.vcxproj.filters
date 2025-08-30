@@ -43,5 +43,8 @@
     <ClInclude Include="file_compare.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="_copyright.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

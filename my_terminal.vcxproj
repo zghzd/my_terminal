@@ -142,6 +142,7 @@
     <ClInclude Include="my_terminal_extended.h" />
     <ClInclude Include="my_terminal_IO.h" />
     <ClInclude Include="my_terminal_processing.h" />
+    <ClInclude Include="_copyright.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
