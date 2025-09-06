@@ -129,6 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="commands.md">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="function_compare.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="README.md">
       <SubType>
       </SubType>

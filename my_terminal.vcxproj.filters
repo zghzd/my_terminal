@@ -18,6 +18,12 @@
     <None Include="README.md">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="commands.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="function_compare.md">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
