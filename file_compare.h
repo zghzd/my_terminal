@@ -13,7 +13,7 @@ class my_compare {
 private:
     string in_file_data_stringtext(bool is_debug) {
         string in_file_name;
-        std::cout << "请输入文件名:\n";
+        std::cout << "请输入文件名:>";
         std::cin >> in_file_name;
         return file_read(in_file_name);
     }
@@ -54,7 +54,7 @@ public:
 
 
     void mycompare(bool is_debug) {
-        std::cout << "请指定模式:\n";
+        std::cout << "请指定模式:>";
         std::string mod_data;
         std::cin >> mod_data;
         if (mod_data == "stringtext") {
