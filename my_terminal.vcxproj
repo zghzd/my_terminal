@@ -137,6 +137,10 @@
       <SubType>
       </SubType>
     </None>
+    <None Include="known_issue.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="README.md">
       <SubType>
       </SubType>
