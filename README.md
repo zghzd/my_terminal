@@ -1,6 +1,6 @@
 ﻿# 文档导航及目录  
 - [指令](commands.md)  
-- [compare功能](function_compare.md)
+- [compare功能](function_compare.md)  
 
 ---
 # my_terminal
